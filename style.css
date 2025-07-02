@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+    background-image: url(https://lh5.googleusercontent.com/proxy/v_rDXpBT9u_iQF55Bl9OBZwXRgehG_OxtAjxZKrHj3rmX0ICI4cv9oMAY0S6NKa0I1_9XV2123lQdDvSjXAki_jVdSfeeXAvdrtsaDyqUrd5wDV_wQ=w3840-h2160-p-k-no-nd-mv);
+    background-size: cover;
+    font-family: Arial, sans-serif;
+     height: 100vh;
+      height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* align to top instead of center */
+}  
+    
+   .logo {
+    color: white;
+    font-family: 'poppins';
+    font-weight: bold;
+    text-align: center;
+    font-size: 60px;
+  margin-bottom: 5px;
+   }
+
+   .search-box {
+     margin-top: 20px;
+    position: relative;
+    width: 100%;
+  max-width: 700px;
+   }
+
+   .search-box input {
+  width: 100%;
+  padding: 12px 20px;
+  border-radius: 25px;
+  border: none;
+  font-size: 16px;
+  outline: none;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 80px; /* push it down slightly */
+}
+
+.shortcuts {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px 60px;
+  max-width: 800px;;
+}
+
+.shortcut {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: white;
+  width: 80px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.shortcut:hover {
+  transform: scale(1.1);
+}
+
+.shortcut img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  margin-bottom: 8px;
+}
+
+.top-right {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.top-right a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.top-right a:hover {
+  text-decoration: underline;
+}
+
+.profile-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
